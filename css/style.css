@@ -27,6 +27,7 @@ header{
     justify-content: space-between;
     background-color:#ff6900;
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
@@ -42,3 +43,40 @@ header{
 .headerright {
     margin: 0 auto;
 }
+/* /HEADER  */
+
+/* MAIN  */
+.flex-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding-top: 90px;
+
+}
+.box{
+    flex-basis: 25%;
+    position: relative;
+}
+.img-content{
+    width: 100%;
+    display: block;
+}
+.tag{
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+    color: white;
+}
+.tag-red{
+    display: inline-block;
+    background-color: red;
+    padding: 5px;
+}
+.tag-green{
+    display: inline-block;
+    background-color: green;
+    padding: 5px;
+}
+
