@@ -9,14 +9,23 @@ ul{
     list-style-type: none;
     display: flex;
 }
+ul li {
+    padding: 10px;
+}
 ul li a{
     color: white;
     text-decoration: none;
     padding: 5px;
 }
 i{
-    width: 50px;
+    width: 25px;
     color: white;
+}
+.redtxt{
+    color: red;
+}
+.slashtxt{
+    text-decoration: line-through;
 }
 /* HEADER  */
 header{
@@ -66,7 +75,7 @@ header{
 .tag{
     position: absolute;
     left: 0px;
-    bottom: 20px;
+    bottom:90px;
     color: white;
 }
 .tag-red{
@@ -79,4 +88,18 @@ header{
     background-color: green;
     padding: 5px;
 }
-
+/* /MAIN  */
+/* FOOTER  */
+footer{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    padding-top:  30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.awesome :not(h3){
+    padding-top: 6px; 
+}
