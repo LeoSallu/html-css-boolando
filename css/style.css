@@ -62,7 +62,7 @@ header{
     gap: 25px;
     flex-wrap: wrap;
     padding-top: 90px;
-
+    padding-bottom: 90px;
 }
 .box{
     flex-basis: 25%;
@@ -88,15 +88,29 @@ header{
     background-color: green;
     padding: 5px;
 }
+.hover{
+    display:none;
+}
+.visible:hover{
+    display:none;
+}
+.hover:hover{
+    display: contents;
+}
+
 /* /MAIN  */
 /* FOOTER  */
 footer{
     background-color: black;
     color: white;
     margin: 0 auto;
-    padding-top:  30px;
+    padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
 }
