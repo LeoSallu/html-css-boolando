@@ -88,16 +88,16 @@ header{
     background-color: green;
     padding: 5px;
 }
-.hover{
-    display:none;
+.second{
+    display: none;
 }
-.visible:hover{
-    display:none;
-}
-.hover:hover{
-    display: contents;
-}
+.img-container:hover .second{
+    display: block;
 
+}
+.img-container:hover .first{
+    display: none;
+}
 /* /MAIN  */
 /* FOOTER  */
 footer{
